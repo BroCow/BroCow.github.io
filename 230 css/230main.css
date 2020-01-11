@@ -5,13 +5,23 @@ body {
   
   h1, h2, h3, h4 {
     font-family: 'Quicksand', 'Arial Narrow', Arial, sans-serif;
-    margin: .25rem;
+    
   }
   
+  h1 {
+    
+    font-size: 2em;
+    padding: 30px 10px 30px 100px;
+
+  }
+
   h2 {
-    color: yellow;
-    font-size: 1.2rem;
-    font-style: italic;
+    
+    padding: 30px 10px 5px 0px;
+    color: rgb(131, 103, 67);
+    font-size: 1.5rem;
+    border-bottom: solid black 2pt;
+    
   }
   
   h3 {
@@ -19,15 +29,21 @@ body {
     font-size: 1.2rem;
   }
   
-  header,
+header {
+  max-width: 980px;
+  margin: auto;
+}
+
   main,
   footer {
-    margin: 1rem auto;
+    margin:  0.5rem auto;
     padding: .5rem;
-    max-width: 480px;
+    width: 100%;
+    max-width: 960px;
+    
   }
   
-  header,
+  header h1,
   footer {
     background-color: navy;
     color: #fff;
@@ -43,7 +59,13 @@ body {
   }
   
   img {
-    width: 100%;
+    float: right;
+    margin-right: 6rem;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    
+
+
   }
   
   .rightalign {
