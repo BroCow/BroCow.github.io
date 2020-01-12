@@ -1,46 +1,37 @@
 body {
     font-size: 16px;
     font-family: Arial, sans-serif;
+    width: 100%;
+    max-width: 960px;
+    margin: auto;
   }
   
   h1, h2, h3, h4 {
     font-family: 'Quicksand', 'Arial Narrow', Arial, sans-serif;
-    
   }
   
   h1 {
-    
+    border-radius: 10px;
     font-size: 2em;
     padding: 30px 10px 30px 100px;
-
   }
 
   h2 {
-    
     padding: 30px 10px 5px 0px;
     color: rgb(131, 103, 67);
     font-size: 1.5rem;
-    border-bottom: solid black 2pt;
-    
+    border-bottom: solid black 2pt; 
   }
   
-  h3 {
-    color: navy;
-    font-size: 1.2rem;
+  main {
+    margin-left: 0.5rem;
+    padding: 0.5rem;
+    max-width: 640px;
   }
-  
-header {
-  max-width: 980px;
-  margin: auto;
-}
 
-  main,
   footer {
     margin:  0.5rem auto;
     padding: .5rem;
-    width: 100%;
-    max-width: 960px;
-    
   }
   
   header h1,
@@ -51,11 +42,15 @@ header {
   
   footer {
     text-align: center;
+    border-radius: 10px;
   }
-  
   
   footer a {
     color: #fff;
+  }
+
+  #lastModif {
+    color: yellow;
   }
   
   img {
@@ -63,19 +58,5 @@ header {
     margin-right: 6rem;
     margin-top: 1rem;
     padding-bottom: 1rem;
-    
-
-
-  }
-  
-  .rightalign {
-    float: right;
-    width: 150px;
-    height: auto;
     box-shadow: 0 0 30px #777;
   }
-  
-  .caption {
-    font-size: smaller;
-    color: grey;
-  } 
