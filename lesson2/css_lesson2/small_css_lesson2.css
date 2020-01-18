@@ -1,5 +1,6 @@
 body {
     font-size: 16px;
+    margin: 3%;
   }
 
 
@@ -25,12 +26,18 @@ main {
 }
 
 h1 {
+    color: #bbb;
     font-size: 3em;
+    text-shadow: 2px 2px 0px darkred;
 }
 
 h2 {
     color: darkred;
     font-size: 2em;
+}
+
+h3 {
+    font-Size: 1.5em;
 }
 
 main section {
@@ -47,6 +54,7 @@ p, li {
 img {
     width: 100%;
     height: auto;
+    box-shadow: 0 0 10px #000;
 }
 
 header, main, footer {
@@ -55,6 +63,7 @@ header, main, footer {
 }
 
 footer {
+    font-size: 1.4em;
     max-width: 767px;
     margin: 0 auto;
     text-align: center;

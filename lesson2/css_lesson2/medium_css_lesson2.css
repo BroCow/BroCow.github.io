@@ -4,5 +4,18 @@
 
     main {
         grid-template-columns: 1fr 1fr;
+        max-width: 960px;
+    }
+
+    header, footer {
+        max-width: 960px;
+    }
+
+    #nike {
+        grid-column: span 2;
+    }
+
+    footer {
+        font-size: 1.5em;
     }
 }
