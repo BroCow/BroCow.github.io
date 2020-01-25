@@ -1,0 +1,120 @@
+body {
+	font-size: 18px;
+	font-family: "Sansita", Ubuntu, sans-serif;
+}
+
+/* phone or baseline views **************************/
+header,
+footer {
+	background-color: lightblue;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	
+}
+header img {
+	width: 128px;
+}
+
+header,
+nav,
+main,
+footer {
+	max-width: 767px;
+	margin: 0 auto;
+	
+}
+h1 {
+	font-size: 2rem;
+}
+h2 {
+	color: #536878;
+}
+
+nav {
+	background-color: #36454f;
+    text-align: center;
+    
+	
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+nav li a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+}
+
+main ul img {
+	width: 64px;
+}
+
+nav a:hover {
+	background-color: #bbb;
+	color: #36454f;
+}
+.active {
+	color: yellow;
+}
+main {
+	display: grid;
+	grid-template-columns: 1fr;
+	font-size: 1.2rem;
+}
+
+.colorgroup {
+	margin: 0.5rem;
+   
+    padding: 0 1rem;
+    background-color: #eee;
+}
+
+#color_swatch {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	font-size: 0.8rem;
+}
+main article {
+	margin: 0.5rem;
+	border: 1px solid #bbb;
+	padding: 0 1rem;
+	background-color: #eee;
+}
+main picture {
+	display: none;
+	margin: 0.5rem;
+}
+
+
+.swatches{
+    width: 100px;
+    height: 100px;
+	border-radius: 10px;
+}
+
+#swatch1{
+	background-color: lightblue;
+}	
+#swatch2{
+	background-color: #fcf408;
+}	
+#swatch3{
+	background-color: darkorange;
+}	
+#swatch4{
+	background-color: lightgray;
+}		
+
+footer {
+	flex: 0 1 100%;
+	height: 2rem;
+}
