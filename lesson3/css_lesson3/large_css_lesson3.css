@@ -1,5 +1,13 @@
 /* Desktop Views ****************************/
 @media only screen and (min-width: 60em) {
+	header,
+	nav,
+	main,
+	footer {
+		max-width: 1280px;
+		margin: 0 auto;
+	}
+	
 	nav a {
 		font-size: 1.1rem;
 	}
@@ -17,5 +25,15 @@
 
 	article:nth-child(3) {
 		grid-column: span 2;
+	}
+
+	.swatches{
+		max-width: 70%;
+		height: 90px;
+		border-radius: 10px;
+	}
+
+	#family_pic {
+		max-width: 100%;
 	}
 }

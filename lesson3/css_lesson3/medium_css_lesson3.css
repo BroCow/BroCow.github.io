@@ -2,15 +2,15 @@
 @media only screen and (min-width: 37.5em) {
 	/* Horizontal Menu Examples */
 	/* Flex *********************/
-	/*	nav ul { display: flex; }
+		nav ul { display: flex; }
 			nav ul li { flex: 1 1 100%; }
-	*/
+	
 
 	
 			nav ul { 
 				display: flex;
-				/* grid-template-columns: repeat(5, 1fr); */
-				/*grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));*/
+				grid-template-columns: repeat(5, 1fr);
+				grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
 			}
 
 	/* Inline-Block             */
@@ -26,13 +26,30 @@
 	*/
 
 /*******************************************************/
-	
+	header,
+	nav,
+	main,
+	footer {
+		max-width: 960px;
+		margin: 0 auto;
+	}
+
 	nav a {
 		font-size: 1rem;
 	}
 	main {
 		grid-template-columns: 1fr 1fr;
+		max-width: 960px;
 	}
+
+	article:nth-child(1) {
+		grid-column: span 2;
+	}
+	
+	article:nth-child(2) {
+		grid-column: span 2;
+	}
+
 	article:nth-child(3) {
 		grid-column: span 2;
 	}
@@ -43,5 +60,15 @@
 		width: 100%;
 		height: auto;
 		border: 1px solid #bbb;
+	}
+
+	.swatches{
+		max-width: 70%;
+		height: 90px;
+		border-radius: 10px;
+	}
+
+	#family_pic {
+		max-width: 100%;
 	}
 }

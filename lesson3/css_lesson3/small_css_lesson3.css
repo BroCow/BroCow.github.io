@@ -1,19 +1,25 @@
 body {
 	font-size: 18px;
-	font-family: "Sansita", Ubuntu, sans-serif;
+	font-family: 'Roboto', sans-serif;
+	margin: 1%;
 }
 
-/* phone or baseline views **************************/
-header,
-footer {
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Eczar', serif;
+}
+
+header {
 	background-color: lightblue;
 	display: flex;
 	flex-flow: column;
 	align-items: center;
 	justify-content: center;
-	padding: 10px;
-	
+	padding: 10px;	
+	text-align: center;
+	border-radius: 20px;
+	box-shadow: 0 0 10px #000;
 }
+
 header img {
 	width: 128px;
 }
@@ -24,27 +30,43 @@ main,
 footer {
 	max-width: 767px;
 	margin: 0 auto;
-	
 }
+
 h1 {
 	font-size: 2rem;
 }
+
+h2 {
+	font-size: 1.75rem;
+}
+
+h3 {
+	font-size: 1.5rem;
+}
+
+h4 {
+	font-size: 1.25rem;
+}
+
 h2 {
 	color: #536878;
 }
 
 nav {
 	background-color: #36454f;
-    text-align: center;
-    
-	
+	text-align: center;
+	box-shadow: 0 0 10px #000;
+	border-radius: 20px;
+	margin-top: 10px;
 }
+
 nav ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
 }
+
 nav li a {
 	display: block;
 	color: #fff;
@@ -62,19 +84,21 @@ nav a:hover {
 	background-color: #bbb;
 	color: #36454f;
 }
+
 .active {
-	color: yellow;
+	color: darkorange;
 }
+
 main {
 	display: grid;
 	grid-template-columns: 1fr;
 	font-size: 1.2rem;
 }
 
+/*Styling for color scheme page*/
 .colorgroup {
 	margin: 0.5rem;
-   
-    padding: 0 1rem;
+    padding: 0 .5rem;
     background-color: #eee;
 }
 
@@ -83,21 +107,10 @@ main {
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	font-size: 0.8rem;
 }
-main article {
-	margin: 0.5rem;
-	border: 1px solid #bbb;
-	padding: 0 1rem;
-	background-color: #eee;
-}
-main picture {
-	display: none;
-	margin: 0.5rem;
-}
-
 
 .swatches{
-    width: 100px;
-    height: 100px;
+    max-width: 100%;
+    height: 90px;
 	border-radius: 10px;
 }
 
@@ -105,16 +118,56 @@ main picture {
 	background-color: lightblue;
 }	
 #swatch2{
-	background-color: #fcf408;
+	background-color: black;
 }	
 #swatch3{
 	background-color: darkorange;
 }	
 #swatch4{
 	background-color: lightgray;
-}		
+}	
+
+main article {
+	margin: 0.5rem;
+	border: 1px solid #bbb;
+	border-radius: 20px;
+	padding: 0 1rem;
+	background-color: #eee;
+	box-shadow: 0 0 10px #000;
+}
+
+main picture {
+	display: none;
+	margin: 0.5rem;
+}
+
+	
+
+#heading_font {
+	font-family: 'Eczar', serif;
+}
+
+#sample_title {
+	font-family: 'Eczar', serif;
+	font-size: 2rem;
+}
+
+#body_font {
+	font-family: 'Roboto', sans-serif;
+}
 
 footer {
-	flex: 0 1 100%;
-	height: 2rem;
+	font-size: 1.1em;
+	background-color: lightblue;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;	
+	text-align: center;
+	box-shadow: 0 0 10px #000;
+	border-radius: 20px;
+}
+
+#family_pic, #carpenter_pic {
+	max-width: 100%;
+	margin-top: 20px;
 }
