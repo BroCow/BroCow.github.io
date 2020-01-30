@@ -1,0 +1,100 @@
+body {
+    font-size: 16px;
+    margin: 0px;
+
+}
+
+header {
+    background-color: lightblue;
+    box-shadow: 0 0 10px #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#logo {
+    width: 90px;
+    padding-top: 15px;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 2px lightslategray;
+    margin: 0px;
+    padding: 0px;
+}
+
+#motto {
+   font-style: italic;
+   color: white;
+   text-shadow: 1px 1px 1px black;
+   font-size: 1.05rem;
+   margin: 0px;
+   padding: 0px 10px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+nav {
+    background-color: lightslategray;
+    max-width: 100%;
+    text-align: center;
+	box-shadow: 0 0 10px #000;
+	border-radius: 20px;
+    margin-top: 10px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+}
+
+.contentbox {
+    display: block;
+    margin: 10px auto;
+    border: 1px dashed #000;
+    padding: 15px;
+    background-color: lightgray;
+    color: white;
+    text-shadow: 1px 1px 0px black;
+    font-style: italic;
+    font-size: 1.3rem;
+    box-shadow: 0 0 10px darkorange;
+}
+
+main, footer {
+    margin: auto;
+}
+
+footer {
+    
+	font-size: 1.3rem;
+	background-color: lightblue;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;	
+	text-align: center;
+	box-shadow: 0 0 10px #000;
+	border-radius: 20px;
+}
