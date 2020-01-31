@@ -11,6 +11,19 @@
        font-size: 1.58rem;
     }
 
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
     footer {
         font-size: 1.55rem;
     }

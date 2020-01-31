@@ -4,6 +4,8 @@ body {
 
 }
 
+
+
 header {
     background-color: lightblue;
     box-shadow: 0 0 10px #000;
@@ -46,6 +48,7 @@ h2 {
 }
 
 nav {
+    align-items: center;
     background-color: lightslategray;
     max-width: 100%;
     text-align: center;
@@ -61,13 +64,29 @@ nav ul {
 	overflow: hidden;
 }
 
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a:hover {
+    color: darkorange;
+}
+
+.responsive li {
+    display: block;
+}
+
 nav li a {
 	display: block;
 	color: white;
 	text-align: center;
 	padding: 0.75rem;
 	text-decoration: none;
-	font-size: 0.95rem;
+	font-size: 1.25rem;
 }
 
 .contentbox {
