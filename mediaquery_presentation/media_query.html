@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>CIT 230 - Media Query Presentation - Brother Cowan</title>
+      <meta name="description" content="This page serves as a presentation on media queries for CIT230.">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat%7cRusso+One&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="css_lesson2/normalize_lesson2.css">
+      <link rel="stylesheet" href="mq_css/mq_small_css.css">
+      <link rel="stylesheet" href="mq_css/mq_medium_css.css">
+      <link rel="stylesheet" href="mq_css/mq_large_css.css">
+    </head>
+
+    <body>
+
+        <header>
+            <h1>
+                The Magic of Media Queries
+            </h1>
+        </header>
+
+        <main>
+            <section class="section_hover">
+                <h2>
+                    What is a <q>Media Query</q>?
+                </h2>
+                <p>
+                    Media queries are used to “query,” or check for what type of device or condition the user is utilizing to view a webpage. 
+                </p>
+                <p>
+                    They can check for things such as:
+                </p>
+            
+                <ul>
+                    <li>Width and height of the viewport</li>
+                    <li>Width and height of the device</li>
+                    <li>Orientation (is the tablet or phone in landscape or portrait mode?)</li>
+                    <li>Resolution</li>
+                </ul>
+            </section>
+            <section class="section_hover">
+                <h2>
+                    When should they be used?
+                </h2>
+                <p>
+                    Media queries should be used whenever the webpage layout or style should change depending on what device is being used to view it.
+                </p>
+            </section>
+            <section class="section_hover">
+                <h2>
+                    Why are they helpful?
+                </h2>
+                <p>
+                    They are very helpful because they provide an improved user experience by customizing the function and appearance of a page for specific viewports.
+                </p>
+            </section>
+            <section class="section_hover">
+                <h2>
+                    Where are they placed?
+                </h2>
+                <h3>
+                    CSS
+                </h3>
+                <p>
+                    /*At the top level of your code */<br>
+                    @media only screen and (min-width = 37.5rem)<br> 
+                    {<br>
+                        article {<br>
+                            Padding: 1rem 3rem;<br>
+                        }<br>
+                    }<br>
+                </p>
+                <h3>
+                    HTML
+                </h3>
+                <p>
+                    Link to stylesheets within the Head
+                </p>
+            </section>
+            <section class="section_hover">
+                <h2>
+                    How are they coded?
+                </h2>
+                <p>
+                    Always design for <q>mobile first.</q> This means that the design is made to work first on a mobile device before tablet or desktop, which helps to ensure that the page will load at good speeds on smaller devices.
+                </p>
+                <p>
+                    This means that as we change the webpage, we make adjustments as the page gets larger, not as it gets smaller.   
+                </p>
+                <h3>
+                    Media Query Syntax Breakdown
+                </h3>
+                <p>
+                    @media [not|only] [media type] [and] ([media feature and|or|not media feature])<br>
+                    {<br>
+                        CSS-code;<br>
+                    }
+                </p>
+                <p>
+                    Example of an <q>At Rule.</q> These begin with the <q>@</q>sign.
+                </p>
+                <ul>
+                    <li><q>Media</q></li>
+                        <ul>
+                            <li>A conditional group rule that will apply its content if the device meets the criteria of the condition defined when media query is used</li>
+                        </ul>
+                </ul>
+                <ul>
+                    <li><q>Not, Only, And</q></li>
+                        <ul>
+                            <li><q>Not</q>> - Reverts the meaning of an entire media query</li>
+                            <li><q>Only</q>> - Prevents older browsers that do not support media queries with media features from applying the specified styles. It has no effect on modern browsers.</li>
+                            <li><q>And</q>> - Combines media feature with a media type or other media feature</li>
+                        </ul>
+                </ul>
+                <ul>
+                    <li><q>Media Type</q></li>
+                        <ul>
+                            <li><q>All</q>> - Default…used for all media type devices</li>
+                            <li><q>Print</q>> - Used for printers</li>
+                            <li><q>Screen</q>> - Used for computer screens, tablets, smart-phones</li>
+                            <li><q>Speech</q>> - Used for screen-readers that <q>read</q> the page out loud</li>
+                        </ul>
+                </ul>
+                <ul>
+                    <li><q>Media Feature</q></li>
+                        <ul>
+                            <li>Orientation</li>
+                            <li>Width</li>
+                            <li>Height</li>
+                            <li>Resolution</li>
+                            <li><a href="https://www.w3schools.com/cssref/css3_pr_mediaquery.asp">Other Examples</a></li>
+                        </ul>
+                </ul>
+                <h3>
+                    Media Query Break Points
+                </h3>
+                <p>
+                    There are so many devices out there with various widths and heights, so coding a media query for every single one is not realistic. However, there are five typical groups that should be targeted as listed below:
+                </p>
+                <ul>
+                    <li><strong>Extra Small Devices (phones, 600px and down)</strong><br>
+                        @media only screen and (max-width: 600px)
+                    </li><br>
+                    <li><strong>Devices (portrait tablets and large phones, 600px and up)</strong><br>
+                        @media only screen and (min-width: 600px)
+                    </li><br>
+                    <li><strong>Medium Devices (landscape tablets, 768px and up)</strong><br>
+                        @media only screen and (min-width: 768px)
+                    </li><br>
+                    <li><strong>Large Devices (laptops and desktops, 992px and up)</strong><br>
+                        @media only screen and (min-width: 992px)
+                    </li><br>
+                    <li><strong>Extra Large Devices (large laptops and desktops, 1200px and up)</strong><br>
+                        @media only screen and (min-width: 1200px)
+                    </li>
+                </ul>
+            </section>
+            
+        </main>
+
+        <footer>
+            <span>&copy;</span><span></span> Media Query Presentation</span>
+				
+            <span> | w3Schools & Mozilla MDN Web Docs | Christopher Cowan |</span><span id="current_date"></span>
+            <p id="lastModif"></p>
+        </footer>
+
+    </body>
+
+</html>

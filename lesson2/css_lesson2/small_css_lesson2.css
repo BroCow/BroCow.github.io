@@ -1,10 +1,10 @@
+/*Phone or baseline view*/
+
 body {
     font-size: 16px;
     margin: 3%;
+    background-color: whitesmoke;
   }
-
-
-/*Phone or baseline view*/
 
 h1, h2, h3, h4 { 
     font-family: 'Russo One', sans-serif;

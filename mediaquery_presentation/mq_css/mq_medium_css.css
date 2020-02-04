@@ -1,0 +1,18 @@
+/*Meduim or landscape tablet*/
+
+/*
+@media only screen and (min-width: 768px)
+{
+    body {
+        background-color: yellow;
+    }
+
+    header {
+        color: black;
+    }
+
+    section {
+        background-color: lavender;
+    }
+}
+*/
