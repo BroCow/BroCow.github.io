@@ -82,6 +82,10 @@ nav ul {
     color: darkorange;
 }
 
+.navigation .current {
+    color: darkorange;
+}
+
 .responsive li {
     display: block;
 }
