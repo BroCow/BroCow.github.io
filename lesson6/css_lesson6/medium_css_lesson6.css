@@ -1,0 +1,68 @@
+@media only screen and (min-width: 40em) {
+    
+    #banner {
+        font-size: 1.5rem;
+    }
+
+    #logo {
+        width: 150px;
+    }
+
+    h1 {
+        font-size: 3.6rem;
+    }
+    
+    #motto {
+       font-size: 1.58rem;
+    }
+
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .contentbox {
+        padding: 2%;
+    }
+
+    .weathersummary {
+        padding: 3% 7%;
+        font-size: 1.4rem;
+    }
+
+    span {
+        font-size: 1.4rem;
+    }
+
+    #forecast_container {
+        display: block;
+    }
+
+    #article_img {
+        float: right;
+        margin: 3%;
+        max-width: 100%;
+        box-shadow: 0 0 10px darkorange;
+    }
+
+    #map {
+        display: block;
+    }
+    
+    #contact_text{
+        margin-left: 30%;
+    }
+
+    footer {
+        font-size: 1.55rem;
+    }
+}
+
