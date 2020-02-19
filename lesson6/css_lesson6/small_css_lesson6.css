@@ -8,8 +8,6 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Eczar';
 }
 
-
-
 #banner {
     margin-bottom: 4px;
     padding: 1px;
@@ -17,6 +15,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     background-color: darkorange;
     text-shadow: 1px 1px 0px white;
+    display: none;
 }
 
 header {

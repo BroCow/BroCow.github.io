@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>CIT 230 - Lazy Load Page - Brother Cowan</title>
+        <meta name="description" content="This page serves as an example of lazy-loading for CIT 230 - Web Frontend Development at BYU-Idaho.">
+        <link rel="icon" href="favicon.ico">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat%7cRusso+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="230_css/normalize.css">
+        <link rel="stylesheet" href="lazyload_css/lazyload.css">
+    </head>
+
+    <body>
+
+        <header>
+            <h1>Lazy-Loading Example Site</h1>
+        </header>
+
+        <main>
+            <!-- Images should be sized 300x400 pixels, may use own images or external
+            placeholders -->
+            <!-- Picture elements should be in one column -->
+            <!-- Include placeholder image having one background color and simple text "Placeholder".
+            Load this into all six img src attributes first (see video example) -->
+            <!-- Replace placeholder with real images as soon as each image is loaded from source -->
+            <!-- Use transition from placeholder to image (reference reading) -->
+            <!-- Lazy-load images using instance of IntersectionObserver(). 
+            Images should load as user scrolls down -->
+            <div>
+            <picture>
+                <img src="lazyload_images/300x400_placeholder.png" 
+                data-src="lazyload_images/airballoon.jpg" alt="Hot Air Balloons">
+            </picture>
+            </div>
+            <div>
+            <picture>
+                <img src="lazyload_images/300x400_placeholder.png" 
+                data-src="lazyload_images/flowers.jpg" alt="Flowers">
+            </picture>
+            </div>
+            <div>
+            <picture>
+                <img src="lazyload_images/300x400_placeholder.png" 
+                data-src="lazyload_images/forrestriver.jpg" alt="Forrest River">
+            </picture>
+            </div>
+            <div>
+            <picture>
+                <img src="lazyload_images/300x400_placeholder.png"
+                data-src="lazyload_images/lakesunset.jpg" alt="Lake Sunset">
+            </picture>
+            </div>
+            <div>
+            <picture>
+                <img src="lazyload_images/300x400_placeholder.png"
+                data-src="lazyload_images/snakeriver.jpg" alt="Snake River">
+            </picture>
+            </div>
+            <div>
+            <picture>
+                <img src="lazyload_images/300x400_placeholder.png"
+                data-src="lazyload_images/temple.jpg" alt="Idaho Temple">
+            </picture>
+            </div>
+        </main>
+
+        <footer>
+            <span>&copy;</span><span id="currentYear"></span> Weather To Be</span>
+            
+            <span> | Attributions | Christopher Cowan |</span><span id="current_date"></span>
+            <p id="lastModif"></p>
+        </footer>
+
+        <script src="lazyload_js/lazyload2.js" defer></script>
+        <script src="/lesson3/js_lesson3/weather_site_planning.js"></script>
+    </body>
+
+
+</html>

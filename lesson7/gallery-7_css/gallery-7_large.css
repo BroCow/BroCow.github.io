@@ -1,0 +1,25 @@
+@media only screen and (min-width: 992px) {
+    #logo {
+        width: 200px;
+    }
+
+    h1 {
+        font-size: 5rem; 
+    }
+    
+    #motto {
+       font-size: 2.16rem;
+    }
+
+    .section_container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    section {
+        box-shadow: 0 0 10px darkorange;
+    }
+
+    main, footer {
+        max-width: 960px;
+    }
+}
