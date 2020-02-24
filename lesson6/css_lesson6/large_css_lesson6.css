@@ -11,6 +11,10 @@
        font-size: 2.16rem;
     }
 
+    nav ul a {
+        font-size: 1.7em;
+    }
+
     #article_img {
         float: right;
         margin: 3%;
