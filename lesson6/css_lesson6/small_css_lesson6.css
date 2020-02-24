@@ -47,8 +47,8 @@ h1 {
 
 #motto {
    font-style: italic;
-   color: white;
-   text-shadow: 1px 2px 1px black;
+   color: black;
+   text-shadow: 1px 2px 1px white;
    font-size: 1.05rem;
    margin: 0px;
    padding: 0px 10px;
@@ -201,6 +201,7 @@ h5 {
 
 #contact_text{
     margin-left: 10%;
+    color: yellow;
 }
 
 main, footer {
