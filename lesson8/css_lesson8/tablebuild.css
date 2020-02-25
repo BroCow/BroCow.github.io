@@ -1,0 +1,45 @@
+html {
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200,200,200);
+    letter-spacing: .5px;
+    font-size: 0.8rem;
+    box-shadow: 10px 10px 10px #628ca6;
+  }
+  
+  td, th {
+    border: 1px solid rgb(190,190,190);
+    padding: 8.5px 10px;
+  }
+
+  thead {
+      font-size: 1.3rem;
+  }
+
+  thead th, tfoot th {
+      background-color: #7fb9c2;
+      color: black;
+  }
+  
+  th, #nov_goal {
+    background-color: #628ca6;
+    color: white;
+  }
+  
+  td {
+    text-align: center;
+    background-color: #e7f0ed;
+  }
+  
+  tr:nth-child(odd) td {
+    background-color: #e7ffed;
+    
+  }
+
+  tfoot {
+      font-size: .5rem;
+  }
+  
