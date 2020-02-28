@@ -15,3 +15,7 @@ let lastModify = document.lastModified
 document.getElementById("currentYear").textContent = year;
 document.getElementById("lastModif").textContent = "Last Updated: " + lastModify;
 
+/*Storm rating number adjustment*/
+function adjustRating(rating) {
+    document.getElementById("ratingvalue").innerHTML = rating;
+}
