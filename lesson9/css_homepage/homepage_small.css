@@ -1,0 +1,114 @@
+
+    body {
+        font-size: 16px;
+        margin: 0px;
+        font-family: 'Cormorant';
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Eczar';
+    }
+
+    header {
+        background-color: lightblue;
+        box-shadow: 0 0 10px #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+        padding: 10px;
+    }
+
+    #logo {
+        width: 90px;
+        padding-top: 15px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        text-shadow: 2px 2px 2px lightslategray;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #motto {
+    font-style: italic;
+    color: black;
+    text-shadow: 1px 2px 1px white;
+    font-size: 1.05rem;
+    margin: 0px;
+    padding: 0px 10px;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    nav {
+        align-items: center;
+        background-color: lightslategray;
+        max-width: 100%;
+        text-align: center;
+        box-shadow: 0 0 10px #000;
+        border-radius: 20px;
+        margin-top: 10px;
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .navigation li:first-child {
+        display: block;
+    }
+
+    .navigation li {
+        display: none;
+    }
+
+    .navigation a:hover {
+        color: darkorange;
+    }
+
+    .responsive li {
+        display: block;
+    }
+
+    nav li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 0.75rem;
+        text-decoration: none;
+        font-size: 1.25rem;
+    }
+
+    /*------- main styling -------------*/
+
+    
+
+/*---------------Footer Styling---------------*/
+    main, footer {
+        margin: 5em auto;
+    }
+
+    footer {
+        font-size: 1.3rem;
+        background-color: lightblue;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;	
+        text-align: center;
+        box-shadow: 0 0 10px #000;
+        border-radius: 20px;
+    }
+
+/* --------------- Thanks Page Styling ------------*/
+
+#thanks {
+    margin: 0 auto;
+}
