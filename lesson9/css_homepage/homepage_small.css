@@ -3,6 +3,7 @@
         font-size: 16px;
         margin: 0px;
         font-family: 'Cormorant';
+        background: darkorange;
     }
 
     h1, h2, h3, h4, h5, h6 {
@@ -17,6 +18,7 @@
         justify-content: center;
         border-radius: 20px;
         padding: 10px;
+        margin-top: 1em;
     }
 
     #logo {
@@ -42,7 +44,7 @@
 
     h2 {
         text-align: center;
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
     nav {
@@ -52,7 +54,8 @@
         text-align: center;
         box-shadow: 0 0 10px #000;
         border-radius: 20px;
-        margin-top: 10px;
+        margin-top: 1em;
+        margin-bottom: 1em;
     }
 
     nav ul {
@@ -88,12 +91,54 @@
     }
 
     /*------- main styling -------------*/
-
+    #video_container {
+       margin-top: 3%; 
+        border: 1px solid black;
+    }
     
+    iframe {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+    
+    #background {
+        display: none;
+    }
 
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+        padding: 3%;
+        text-align: center;
+        background-color: lightgray;
+        box-shadow: 0px 0px 30px 0px black;
+        max-width: 100%;
+    }
+    
+    main section {
+        position: relative;
+        box-shadow: 0px 0px 10px 0px darkorange;
+        background-color: white;
+        max-width: 100%;
+        margin-bottom: 3%;
+    }
+    
+    main img {
+        max-width: 100%;
+        box-shadow: 0px 0px 20px 0px black;
+        margin-bottom: 3%;
+        border-radius: 10px;
+    }
+
+    p {
+        font-size: 1.7rem;
+    }
+    
 /*---------------Footer Styling---------------*/
     main, footer {
-        margin: 5em auto;
+        margin: 1em auto;
     }
 
     footer {
@@ -107,8 +152,3 @@
         border-radius: 20px;
     }
 
-/* --------------- Thanks Page Styling ------------*/
-
-#thanks {
-    margin: 0 auto;
-}

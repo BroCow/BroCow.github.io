@@ -29,8 +29,12 @@
         font-size: 1.4rem;
     }
 
-    .section_container {
+    .cards {
         grid-template-columns: 1fr 1fr;
+    }
+    
+    main section {
+        margin-right: 3%;
     }
 
     footer {
