@@ -6,6 +6,10 @@
     h1 {
         font-size: 5rem; 
     }
+
+    nav ul a {
+        font-size: 1.7em;
+    }
     
     #motto {
        font-size: 2.16rem;
