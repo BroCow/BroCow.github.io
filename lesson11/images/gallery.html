@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>CIT 230 - Weather Gallery - Brother Cowan</title>
+      <meta name="author" content="Christopher Cowan">
+      <meta name="description" content="This page serves as the lesson 7 assignment for the weather site.">
+      <link rel="stylesheet" href="gallery-7_css/gallery-7_normalize.css">
+      <link rel="stylesheet" href="gallery-7_css/gallery-7_small.css">
+      <link rel="stylesheet" href="gallery-7_css/gallery-7_medium.css">
+      <link rel="stylesheet" href="gallery-7_css/gallery-7_large.css">
+    </head>
+
+    <body>
+        <header>
+            <img id="logo" src="gallery-7_images/weathersite_icon.png" alt="Weather Site Logo">
+            <section class="headings">
+                <h1>
+                    Weather To Be...
+                </h1>
+                <div id="motto">
+                    What the weather is to be, or not to be. 
+                    <br>
+                    That is the question.
+                </div>
+            </section>
+        </header>
+
+        <nav>
+            <ul class="navigation">
+                <li><a class="ham" href="#">&#9776; Menu</a></li>
+                <li><a id="home" href="/lesson9/index.html">Home</a></li>
+                <li><a id="preston" href="/lesson6/preston-6.html">Preston</a></li>
+                <li><a id="soda" href="soda_springs.html">Soda Springs</a></li>
+                <li><a id="fish" href="fish_haven.html">Fish Haven</a></li>
+                <li><a id="storm" href="/lesson8/stormcenter.html">Storm Center</a></li>
+                <li><a id="gallery" href="/lesson7/gallery-7.html">Weather Gallery</a></li>
+            </ul> 
+        </nav>
+
+        <main>
+            <h2>
+                Weather Gallery
+            </h2>
+            
+            <div class="section_container">
+                <section>
+                    <picture>
+                        <img src="gallery-7_images/300x400_placeholder.png" data-src="gallery-7_images/300x400_hotair.jpg" alt="Hot air balloons">
+                    </picture>
+                    <p>
+                        Nothing is quite like floating through the air in a hot air balloon...especially when you are over beautiful Idaho! 
+                    </p>
+                </section>
+                <section>
+                    <picture>
+                        <img src="gallery-7_images/300x400_placeholder.png" data-src="gallery-7_images/300x400_flowers.jpg" alt="Yellow flowers">
+                    </picture>
+                    <p>
+                        A wide variety of flowers grow througout Idaho, which cover the countryside in the spring for as far as the eye can see.
+                    </p>
+                </section>
+                <section>
+                    <picture>
+                        <img src="gallery-7_images/300x400_placeholder.png" data-src="gallery-7_images/forrestriver.jpg" alt="River through forrest">
+                    </picture>
+                    <p>
+                        This gorgeous river is just one of many that provide beauty, relaxation, and fun.
+                    </p>
+                </section>
+                <section>
+                    <picture>
+                        <img src="gallery-7_images/300x400_placeholder.png" data-src="gallery-7_images/lakesunset.jpg" alt="Sunset over the lake">
+                    </picture>
+                    <p>
+                        Sunsets like this one are common throughout Idaho...come and see for yourself!
+                    </p>
+                </section>
+                <section>
+                    <picture>
+                        <img src="gallery-7_images/300x400_placeholder.png" data-src="gallery-7_images/snakeriver.jpg" alt="Snake river waterfall">
+                    </picture>
+                    <p>
+                        One of the most famous rivers in Idaho is Snake River, which has this amazing waterfall contributing to its popularity.
+                    </p>
+                </section>
+                <section>
+                    <picture>
+                        <img src="gallery-7_images/300x400_placeholder.png" data-src="gallery-7_images/temple.jpg" alt="Idaho Temple">
+                    </picture>
+                    <p>
+                        The Church of Jesus Christ of Latter-Day Saints temples are incredible structures that bring peace and inspiration to the surrounding areas.
+                    </p>
+                </section>
+                <section>
+                    <picture>
+                        <img src="gallery-7_images/300x400_placeholder.png" data-src="gallery-7_images/300x400_pelicans.jpg" alt="Pelicans in the water">
+                    </picture>
+                    <p>
+                        These pelicans are just one example of the variety of wildlife that florishes throughout Idaho.
+                    </p>
+                </section>
+                <section>
+                    <picture>
+                        <img src="gallery-7_images/300x400_placeholder.png" data-src="gallery-7_images/300x400_llama.jpg" alt="Llama on hike">
+                    </picture>
+                    <p>
+                        Have you ever rode a llama through a forrest? If not, come to Idaho and make it happen!
+                    </p>
+                </section>
+                <section>
+                    <picture>
+                        <img src="gallery-7_images/300x400_placeholder.png" data-src="gallery-7_images/300x400_oldhouse.jpg" alt="Old House">
+                    </picture>
+                    <p>
+                        This abandoned house adds to the history of Idaho's countryside.
+                    </p>
+                </section>
+            </div>
+        </main>
+
+        <footer>
+            <span>&copy;</span><span id="currentYear"></span><span> Weather To Be</span>
+				
+            <span> | Attributions | Christopher Cowan |</span><span id="current_date"></span>
+            <p id="lastModif"></p>
+        </footer>
+        <script src="gallery-7_js/lazy_load2.js"></script>
+        <script src="gallery-7_js/gallery-7.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script>
+            WebFont.load({
+                google: {
+                    families: ['Eczar', 'Cormorant']
+                }
+            });
+        </script>
+    </body>
+
+</html>

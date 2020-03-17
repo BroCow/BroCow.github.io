@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>CIT 230 - Weather Gallery - Brother Cowan</title>
+      <meta name="author" content="Christopher Cowan">
+      <meta name="description" content="This page serves as the lesson 11 assignment for the weather site.">
+      <link rel="stylesheet" href="css/css_stormcenter/stormcenter_normalize.css">
+      <link rel="stylesheet" href="css/css_stormcenter/stormcenter_small.css">
+      <link rel="stylesheet" href="css/css_stormcenter/stormcenter_medium.css">
+      <link rel="stylesheet" href="css/css_stormcenter/stormcenter_large.css">
+    </head>
+
+    <body>
+        <header>
+            <img id="logo" src="images/weathersite_icon.png" alt="Weather Site Logo">
+            <section class="headings">
+                <h1>
+                    Weather To Be...
+                </h1>
+                <div id="motto">
+                    What the weather is to be, or not to be. 
+                    <br>
+                    That is the question.
+                </div>
+            </section>
+        </header>
+
+        <nav>
+            <ul class="navigation">
+                <li><a class="ham" href="#">&#9776; Menu</a></li>
+                <li><a id="preston" href="preston.html">Preston</a></li>
+                <li><a id="soda" href="soda_springs.html">Soda Springs</a></li>
+                <li><a id="fish" href="fish_haven.html">Fish Haven</a></li>
+                <li><a id="storm" href="stormcenter.html">Storm Center</a></li>
+                <li><a id="gallery" href="gallery.html">Weather Gallery</a></li>
+            </ul> 
+        </nav>
+
+        <main>
+            <h2 id="thanks">Thanks for reporting a storm!</h1>
+            
+        </main>
+
+        <footer>
+            <span>&copy;</span><span id="currentYear"></span><span> Weather To Be</span>
+				
+            <span> | Attributions | Christopher Cowan |</span><span id="current_date"></span>
+            <p id="lastModif"></p>
+        </footer>
+        
+        <script src="js/stormcenter.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script>
+            WebFont.load({
+                google: {
+                    families: ['Eczar', 'Cormorant']
+                }
+            });
+        </script>
+    </body>
+
+</html>
+
