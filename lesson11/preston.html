@@ -59,10 +59,10 @@
 
           <div id="herodiv_container" class="contentbox">
             <picture class="contentbox_img">
-              <source media="(min-width: 960px)" srcset="images/hero960_large.jpg">
-              <source media="(min-width: 768px)" srcset="images/hero768_medium.jpg">
+              <source media="(min-width: 960px)" srcset="images/hero960.jpg">
+              <source media="(min-width: 768px)" srcset="images/hero768.jpg">
 
-              <img id="hero_img" src="images/hero600_small.jpg" alt="Small Image">
+              <img id="hero_img" src="images/hero600.jpg" alt="Small Image">
             </picture>
             <section class="weathersummary">
               <h3>
@@ -76,47 +76,69 @@
             </section>
           </div>
 
-          <div id="forecast_container" class="contentbox">
-            <section>
-              <h2>
-                5 Day Forecast
-              </h2>
-            </section>
-            <section>
-              <p id="imagesrc"></p>
-              <table>
-                <tr>
-                  <th>Wed</th>
-                  <th>Thu</th>
-                  <th>Fri</th>
-                  <th>Sat</th>
-                  <th>Sun</th>
-                </tr>
-                <tr>
-                  <td>
-                    <img id="icon1" src="icon" alt="Condition">
-                    <p><span id="day1"></span>&#176; F</p>
-                  </td>
-                  <td>
-                      <img id="icon2" src="icon" alt="Condition">
-                      <p><span id="day2"></span>&#176; F</p>
-                    </td>
-                    <td>
-                      <img id="icon3" src="icon" alt="Condition">
-                      <p><span id="day3"></span>&#176; F</p>
-                    </td>
-                    <td>
-                      <img id="icon4" src="icon" alt="Condition">
-                      <p><span id="day4"></span>&#176; F</p>
-                    </td>
-                    <td>
-                      <img id="icon5" src="icon" alt="Condition">
-                      <p><span id="day5"></span>&#176; F</p>
-                    </td>
-                </tr>
-              </table>
+          <section class="forecast">
+            <h3>5-Day Forecast</h3>
+            
+            <div class="forecastTable">
+              <!--<div>
+                <div class="Day">
+                  <strong>Sat</strong>
+                </div>
+                <div class="DayContent">
+                  <img src="images/sun.png" alt="clear sky">
+                  <p>temp1</p>
+                </div>
+              </div>
+
+              <div>
+                <div class="Day">
+                  <strong>Sun</strong>
+                </div>
+                <div class="DayContent">
+                  <img src="images/clouds.png" alt="cloudy sky">
+                  <p>temp2</p>
+                </div>
+              </div>
+
+              <div>
+                <div class="Day">
+                  <strong>Mon</strong>
+                </div>
+                <div class="DayContent">
+                  <img src="images/rain.png" alt="Rainy sky">
+                  <p>temp3</p>
+                </div>
+              </div>
+
+              <div>
+                <div class="Day">
+                  <strong>Tues</strong>
+                </div>
+                <div class="DayContent">
+                  <img src="images/snow.png" alt="Snowy sky">
+                  <p>temp4</p>
+                </div>
+              </div>
+
+              <div>
+                <div class="Day">
+                  <strong>Wed</strong>
+                </div>
+                <div class="DayContent">
+                  <img src="images/snow.png" alt="Snowy sky">
+                  <p>temp5</p>
+                </div>
+              </div>-->
+                
+            </div>
+            
           </section>
-          </div>
+
+          <!-- Town events section -->
+  
+          <div class="cards"></div>
+
+          <!-- Town article section -->
 
           <div id="article_container" class="contentbox">
               <img id="article_img" src="images/article_img.jpg" alt="Family Hike">
@@ -124,20 +146,19 @@
                 Outdoor Family Fun
               </h3>
               <h5>
-                By Yada-Yada Iduno
+                By Hank Hikealot
               </h5>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                Eveniet explicabo ipsum excepturi commodi, accusantium, dicta 
-                eaque eligendi cum, similique facere repudiandae provident? 
-                Repellendus cupiditate corporis minus a ipsa, possimus nostrum?
+                Nothing is more exhilarating than a hike surrounded by the beauty of nature. 
+                Here in Preston, you can find trails that are sure to provide you with what you are 
+                looking for. From easy, <q>Stop and smell the flowers</q> hikes to, <q>Test your endurance</q> hikes, Preston 
+                has it. 
               </p>
               <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                  Eveniet explicabo ipsum excepturi commodi, accusantium, dicta 
-                  eaque eligendi cum, similique facere repudiandae provident? 
-                  Repellendus cupiditate corporis minus a ipsa, possimus nostrum?
-                </p>
+                In addition to great scenery and exercise, a hiker in Preston will also be pleased to discover
+                a wide variety of wild life. There are many species of birds and mammals that present fantastic 
+                photo opportunities. You will truly feel like you are <q>one with nature</q> while out on your hike!
+              </p>
           </div>
 
           <div id="contact_container" class="contentbox">
@@ -165,7 +186,7 @@
         <footer>
             <span>&copy;</span><span id="currentYear"></span><span> Weather To Be</span>
 				
-            <span> | Attributions | Christopher Cowan |</span><span id="current_date"></span>
+            <span> | Weather Data from <a id="attribution" href="https://openweathermap.org">OpenWeatherMap</a> | Christopher Cowan |</span><span id="current_date"></span>
             <p id="lastModif"></p>
         </footer>
 
@@ -174,6 +195,7 @@
         <script src="js/pancakesBanner.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
         <script src="js/preston_weatherapi.js"></script>
+        <script src="js/preston_events.js"></script>
         <script>
             WebFont.load({
                 google: {

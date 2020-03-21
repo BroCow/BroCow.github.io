@@ -62,6 +62,9 @@ fetch(requestURL)
       image.setAttribute('src', "images/" + towns[i].photo);
       card.appendChild(image);
 
+      image.setAttribute('alt', towns[i].name + " photo");
+      card.appendChild(image);
+
       document.querySelector('div.cards').appendChild(card);
       }
     }

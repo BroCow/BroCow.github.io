@@ -1,1 +1,193 @@
-This page is currently under construction
+<!doctype html>
+<html lang="en">
+
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>CIT 230 - Fish Haven - Brother Cowan</title>
+      <meta name="author" content="Christopher Cowan">
+      <meta name="description" content="This page serves as the lesson 11 assignment for the weather site.">
+      <!--<link href="https://fonts.googleapis.com/css?family=Cormorant+Infant|Eczar|Roboto&display=swap" rel="stylesheet">-->
+      <link rel="stylesheet" href="css/css_fishhaven/fishhaven_normalize.css">
+      <link rel="stylesheet" href="css/css_fishhaven/fishhaven_small.css">
+      <link rel="stylesheet" href="css/css_fishhaven/fishhaven_medium.css">
+      <link rel="stylesheet" href="css/css_fishhaven/fishhaven_large.css">
+    </head>
+
+    <body>
+        <section id="banner">
+            <p>
+              Saturday = Fish Haven pancakes in the park!
+              <br> 
+              9:00 a.m. Saturday at the city park pavilion.
+            </p>
+          </section>
+
+        <header>
+          <img id="logo" src="images/weathersite_icon.png" alt="Weather Site Logo">
+          <section class="headings">
+            <h1>
+              Weather To Be...
+            </h1>
+            <div id="motto">
+                What the weather is to be, or not to be.
+                <br>
+                That is the question.
+            </div>
+          </section>
+
+        </header>
+
+        <nav>
+            
+          <ul class="navigation">
+            <li><a class="ham" href="#">&#9776; Menu</a></li>
+            <li><a id="home" href="index.html">Home</a></li>
+            <li><a id="preston" href="preston.html"><strong>Preston</strong></a></li>
+            <li><a id="soda" href="soda_springs.html"><strong>Soda Springs</strong></a></li>
+            <li><a id="fish" href="fish_haven.html"><strong>Fish Haven</strong></a></li>
+            <li><a id="storm" href="stormcenter.html"><strong>Storm Center</strong></a></li>
+            <li><a id="gallery" href="gallery.html"><strong>Weather Gallery</strong></a></li>
+          </ul>
+             
+        </nav>
+
+        <main>
+          <h2>
+            Fish Haven Idaho
+          </h2>
+
+          <div id="herodiv_container" class="contentbox">
+            <picture class="contentbox_img">
+              <source media="(min-width: 960px)" srcset="images/hero960.jpg">
+              <source media="(min-width: 768px)" srcset="images/hero768.jpg">
+
+              <img id="hero_img" src="images/hero600.jpg" alt="Small Image">
+            </picture>
+            <section class="weathersummary">
+              <h3>
+                Weather Summary
+              </h3>
+              <p>Conditions: <span id="description"></span></p>
+              <p>Current Temp: <span id="temp"></span>&#176; F</p>
+              <p>Wind Chill: <span id="windChill"></span>&#176; F</p>
+              <p>Humidity: <span id="humidity"></span>&#37;</p>
+              <p>Wind Speed: <span id="windSpeed"></span> mph</p>
+            </section>
+          </div>
+
+          <div id="forecast_container" class="contentbox">
+            <section>
+              <h2>
+                5 Day Forecast
+              </h2>
+            </section>
+            <section>
+              <p id="imagesrc"></p>
+              <table>
+                <tr>
+                  <th>Wed</th>
+                  <th>Thu</th>
+                  <th>Fri</th>
+                  <th>Sat</th>
+                  <th>Sun</th>
+                </tr>
+                <tr>
+                  <td>
+                    <img id="icon1" src="icon" alt="Condition">
+                    <p><span id="day1"></span>&#176; F</p>
+                  </td>
+                  <td>
+                      <img id="icon2" src="icon" alt="Condition">
+                      <p><span id="day2"></span>&#176; F</p>
+                    </td>
+                    <td>
+                      <img id="icon3" src="icon" alt="Condition">
+                      <p><span id="day3"></span>&#176; F</p>
+                    </td>
+                    <td>
+                      <img id="icon4" src="icon" alt="Condition">
+                      <p><span id="day4"></span>&#176; F</p>
+                    </td>
+                    <td>
+                      <img id="icon5" src="icon" alt="Condition">
+                      <p><span id="day5"></span>&#176; F</p>
+                    </td>
+                </tr>
+              </table>
+          </section>
+          </div>
+
+          <!-- Town events section -->
+  
+          <div class="cards"></div>
+
+          <!-- Town article section -->
+
+          <div id="article_container" class="contentbox">
+              <img id="article_img" src="images/fishing.jpg" alt="Reeling in a fish">
+              <h3>
+                Fish Haven is Fish Heaven!
+              </h3>
+              <h5>
+                By Frankie Fishiefriend
+              </h5>
+              <p>
+                Come fishing in Fish Haven! Here you will find some of the best fishing in Idaho. 
+                The trout and bass are plentiful, hungry, and ready for you! Bear lake is a famous
+                for its fish and is sure to deliver on a great time.
+              </p>
+              <p>
+                As you fish Bear Lake in Fish Haven, Idaho, you are surrounded by some of the most beautiful
+                scenery around. The lake is breathtaking, quiet, and the surrounding land is astonishing. Your time
+                spent fishing here on the lake will be memorable and rewarding!
+              </p>
+          </div>
+
+          <div id="contact_container" class="contentbox">
+            <div id="map">
+              <img src="images/preston_map.png" alt="Idaho Map">
+            </div>
+
+            <div id="contact_text">
+              <h3>
+                Weather To Be
+              </h3>
+              <p>30 N 1st E
+              <br>
+              Preston, ID 83263
+              </p>
+              
+              <p><span>&#9742; </span>999.999.9999
+              <br>
+              <span>&#9993; </span>weathertobe&#64;wtb.com</p>
+            </div>
+            
+          </div>
+        </main>
+
+        <footer>
+            <span>&copy;</span><span id="currentYear"></span><span> Weather To Be</span>
+				
+            <span> | Attributions | Christopher Cowan |</span><span id="current_date"></span>
+            <p id="lastModif"></p>
+        </footer>
+
+        <script src="js/hamburger.js"></script>
+        <script src="js/weather_site_planning.js"></script>
+        <script src="js/pancakesBanner.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script src="js/fishhaven_weatherapi.js"></script>
+        <script src="js/fishhaven_events.js"></script>
+        <script>
+            WebFont.load({
+                google: {
+                    families: ['Eczar', 'Cormorant']
+                }
+            });
+        </script>
+        
+        <script src="js/windchill.js"></script>
+    </body>
+
+</html>
