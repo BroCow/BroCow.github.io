@@ -15,17 +15,6 @@ const desc = jsObject.weather[0].description;  // note how we reference the weat
 document.getElementById('temp').textContent = jsObject.main.temp;  
 document.getElementById('humidity').textContent = jsObject.main.humidity;  
 document.getElementById('windSpeed').textContent = jsObject.wind.speed;
-document.getElementById('imagesrc').textContent = imagesrc;  // informational specification only
-document.getElementById('icon1').setAttribute('src', imagesrc);  // focus on the setAttribute() method
-document.getElementById('icon1').setAttribute('alt', desc);
-document.getElementById('icon2').setAttribute('src', imagesrc);  
-document.getElementById('icon2').setAttribute('alt', desc);
-document.getElementById('icon3').setAttribute('src', imagesrc);  // focus on the setAttribute() method
-document.getElementById('icon3').setAttribute('alt', desc);
-document.getElementById('icon4').setAttribute('src', imagesrc);  // focus on the setAttribute() method
-document.getElementById('icon4').setAttribute('alt', desc);
-document.getElementById('icon5').setAttribute('src', imagesrc);  // focus on the setAttribute() method
-document.getElementById('icon5').setAttribute('alt', desc);
 });
 
 /* Forecast Script */
@@ -52,7 +41,7 @@ fetch(apiForecastURL)
 
 			const imageidentifier = forecastAPI.weather[0].main;
 			if (imageidentifier == "Clear"){
-				var imgSource = "assets/sunny.png";
+				var imgSource = "images/sun.png";
 			} 
 			else if (imageidentifier == "Clouds"){
 				var imgSource = "images/clouds.png";
@@ -67,7 +56,7 @@ fetch(apiForecastURL)
 				var imgSource = "images/rain.png";
 			}
 			else {
-				var imgSource = "assets/mist.png"
+				var imgSource = "images/mist.png"
 			}
 
 

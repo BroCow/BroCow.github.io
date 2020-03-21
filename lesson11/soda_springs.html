@@ -8,10 +8,10 @@
       <meta name="author" content="Christopher Cowan">
       <meta name="description" content="This page serves as the lesson 11 assignment for the weather site.">
       <!--<link href="https://fonts.googleapis.com/css?family=Cormorant+Infant|Eczar|Roboto&display=swap" rel="stylesheet">-->
-      <link rel="stylesheet" href="css/css_sodasprings/sodasprings_normalize.css">
-      <link rel="stylesheet" href="css/css_sodasprings/sodasprings_small.css">
-      <link rel="stylesheet" href="css/css_sodasprings/sodasprings_medium.css">
-      <link rel="stylesheet" href="css/css_sodasprings/sodasprings_large.css">
+      <link rel="stylesheet" href="css/normalize.css">
+      <link rel="stylesheet" href="css/small.css">
+      <link rel="stylesheet" href="css/medium.css">
+      <link rel="stylesheet" href="css/large.css">
     </head>
 
     <body>
@@ -76,47 +76,11 @@
             </section>
           </div>
 
-          <div id="forecast_container" class="contentbox">
-            <section>
-              <h2>
-                5 Day Forecast
-              </h2>
-            </section>
-            <section>
-              <p id="imagesrc"></p>
-              <table>
-                <tr>
-                  <th>Wed</th>
-                  <th>Thu</th>
-                  <th>Fri</th>
-                  <th>Sat</th>
-                  <th>Sun</th>
-                </tr>
-                <tr>
-                  <td>
-                    <img id="icon1" src="icon" alt="Condition">
-                    <p><span id="day1"></span>&#176; F</p>
-                  </td>
-                  <td>
-                      <img id="icon2" src="icon" alt="Condition">
-                      <p><span id="day2"></span>&#176; F</p>
-                    </td>
-                    <td>
-                      <img id="icon3" src="icon" alt="Condition">
-                      <p><span id="day3"></span>&#176; F</p>
-                    </td>
-                    <td>
-                      <img id="icon4" src="icon" alt="Condition">
-                      <p><span id="day4"></span>&#176; F</p>
-                    </td>
-                    <td>
-                      <img id="icon5" src="icon" alt="Condition">
-                      <p><span id="day5"></span>&#176; F</p>
-                    </td>
-                </tr>
-              </table>
+          <section class="forecast">
+            <h3>5-Day Forecast</h3>
+            <div class="forecastTable">
+            </div>
           </section>
-          </div>
 
           <!-- Town events section -->
   
