@@ -16,14 +16,14 @@ fetch(requestURL)
       
       let card = document.createElement('section');
 
-      let h2 = document.createElement('h2');
+      let h3 = document.createElement('h3');
       /*Create variables to store info into "p" elements*/
       let event1 = document.createElement('p');
       let event2 = document.createElement('p');
       let event3 = document.createElement('p');
 
-      h2.textContent = 'Upcoming ' + towns[i].name + ' Events';
-      card.appendChild(h2);
+      h3.textContent = 'Upcoming ' + towns[i].name + ' Events';
+      card.appendChild(h3);
       
       event1.textContent = towns[i].events[0];
       card.appendChild(event1);
