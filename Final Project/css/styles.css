@@ -1,0 +1,341 @@
+body {
+  max-width: 1028px;
+  background-color: #DDDFD2;
+  font-size: 16px;
+  font-family: 'Amiri', serif; }
+
+header {
+  position: fixed;
+  top: 10px;
+  width: 1028px;
+  max-width: 96.5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  font-family: 'Quintessential', cursive;
+  background-color: #243329; }
+
+.logo {
+  display: none; }
+
+#reserve_button {
+  position: fixed;
+  top: 110px;
+  width: 1028px;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+button {
+  width: 60%;
+  font-size: 1.3rem;
+  font-family: 'Amiri', serif;
+  color: #243329;
+  background-color: #F7B04B;
+  z-index: 1; }
+
+nav {
+  position: fixed;
+  top: 165px;
+  width: 1028px;
+  max-width: 96.5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 2px solid #87A385;
+  border-bottom: 2px solid #87A385;
+  background-color: #DDDFD2;
+  opacity: 0.9; }
+
+nav ul {
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0; }
+
+nav li a {
+  display: block;
+  text-decoration: none;
+  padding: 2%;
+  color: #243329; }
+
+.ham {
+  font-size: 3em;
+  color: #243329; }
+
+.navigation li:first-child {
+  display: block; }
+
+.navigation li {
+  display: none; }
+
+.responsive li {
+  display: block;
+  text-align: center;
+  font-size: 1.1rem;
+  background-color: #F7B04B; }
+
+main {
+  margin-top: 260px; }
+
+.main_adventures {
+  margin-bottom: 1%; }
+
+#whitewater {
+  height: 355px; }
+
+#kayaking {
+  height: 400px; }
+
+#camping {
+  height: 355px; }
+
+.main_images {
+  position: relative;
+  max-width: 99%;
+  z-index: -1;
+  margin-bottom: 1%; }
+
+.main_headings {
+  position: relative;
+  bottom: 130px;
+  max-width: 99%;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #243329;
+  opacity: 0.9;
+  z-index: -1; }
+
+#current_conditions {
+  border-top: 2px solid #87A385;
+  border-bottom: 2px solid #87A385;
+  margin-bottom: 5%; }
+
+#current_conditions_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1028px;
+  max-width: 100%;
+  margin-left: 6%; }
+
+.condition_info {
+  padding-right: 10%; }
+
+footer {
+  border: solid 1px black;
+  margin-bottom: 10px;
+  width: 1028px;
+  max-width: 100%;
+  height: 90px;
+  color: #FFFFFF;
+  background-color: #243329; }
+
+footer p {
+  margin: 0; }
+
+h3 {
+  text-align: center;
+  padding: 0;
+  margin: 0; }
+
+#phone_email {
+  position: relative;
+  width: 160px;
+  left: 66%;
+  bottom: 70px; }
+
+#address {
+  position: relative;
+  width: 170px;
+  left: 2%;
+  bottom: 10px; }
+
+.adventures_headings {
+  position: relative;
+  max-width: 100%;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #243329;
+  opacity: 0.9;
+  z-index: -1; }
+
+#ra_wwr {
+  max-width: 100%; }
+
+.ra_sections h3 {
+  text-align: left; }
+
+p {
+  margin-top: 0;
+  padding: 1%; }
+
+iframe {
+  max-width: 100%;
+  margin-bottom: 2%; }
+
+#c_pborder {
+  border-top: 2px solid #87A385;
+  padding-top: 2%; }
+
+fieldset {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 2%;
+  box-shadow: 2px 2px 4px 2px #243329; }
+
+.info, input {
+  display: block;
+  margin: auto;
+  width: 80%; }
+
+legend {
+  font-size: 1.05em; }
+
+input {
+  padding: 3%;
+  font-size: 1.1rem; }
+
+textarea {
+  font-size: 1.1rem; }
+
+form input.submitBtn {
+  border: 2px solid #FFFFFF;
+  background-color: #F7B04B;
+  color: #243329;
+  box-shadow: 2px 2px 4px 2px #243329;
+  padding: 0.5rem 1rem;
+  margin: auto;
+  margin-bottom: 2%;
+  width: 40%;
+  font-size: 1.3rem;
+  font-family: 'Amiri', serif; }
+
+table {
+  border: 1px solid #243329;
+  background-color: #87A385;
+  width: 100%; }
+
+th, td {
+  border: 1px solid #243329;
+  background-color: #DDDFD2;
+  padding: 0 10px 0 10px; }
+
+@media only screen and (min-width: 560px) {
+  .logo {
+    display: block;
+    margin-right: 3%; }
+  nav ul {
+    width: 1028px;
+    max-width: 100%;
+    list-style-type: none;
+    overflow: hidden; }
+  .navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .navigation li {
+    display: block;
+    flex: 1 1 100%; }
+  .navigation li:first-child {
+    display: none; }
+  .section_container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    text-align: center; }
+  #whitewater {
+    margin-bottom: 2%; }
+  #whitewater_img {
+    max-width: 99%; }
+  #kayaking {
+    position: relative;
+    height: 245px;
+    right: 1%; }
+  #camping {
+    height: 245px;
+    max-width: 98%; }
+  #current_conditions {
+    margin-top: 5%; }
+  #phone_email {
+    left: 70%;
+    bottom: 193px; }
+  #address {
+    left: 40%;
+    bottom: 130px; }
+  #ra_wwr {
+    float: left;
+    margin-right: 2%; }
+  #ra_kayak {
+    float: right;
+    margin-left: 2%; }
+  #ra_camping {
+    float: left;
+    margin-right: 2%; }
+  footer img {
+    position: relative;
+    bottom: 60px;
+    margin-left: 3%; }
+  legend {
+    font-size: 1.1em; } }
+
+/* end of media query */
+@media only screen and (min-width: 768px) {
+  body {
+    margin: auto; }
+  header {
+    font-size: 1.3em; }
+  #reserve_button {
+    top: 145px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  nav {
+    top: 210px; }
+  main {
+    margin-top: 320px;
+    margin-left: 10px;
+    margin-right: 10px; }
+  .section_container1 {
+    display: flex; }
+  .main_adventures {
+    border: 1px red solid;
+    width: 345px; }
+  .main_headings {
+    bottom: 10px; }
+  #whitewater {
+    max-width: 95%; }
+  #whitewater_img {
+    max-width: 100%; }
+  #kayaking {
+    right: 5px;
+    max-width: 95%; }
+  #kayaking_img {
+    max-width: 100%; }
+  #camping {
+    max-width: 95%; }
+  #camping_img {
+    max-width: 100%; }
+  #current_conditions {
+    margin-top: 20%; }
+  #address {
+    left: 44%;
+    bottom: 135px; }
+  #phone_email {
+    left: 75%;
+    bottom: 209px; }
+  header {
+    max-width: 100%; }
+  nav {
+    max-width: 100%; }
+  #ra_wwr {
+    float: left;
+    margin-right: 2%; }
+  .ra_sections {
+    margin-bottom: 2%; }
+  p {
+    font-size: 1.1em;
+    padding-bottom: 2%; } }
+
+/* end of media query */

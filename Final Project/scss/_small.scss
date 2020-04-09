@@ -1,0 +1,279 @@
+body {
+    max-width: 1028px;
+    background-color: #DDDFD2;
+    font-size: 16px;
+    font-family: 'Amiri', serif;
+}
+
+// Begin header styling
+header {
+    position: fixed;
+    top: 10px;
+    width: 1028px;
+    max-width: 96.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-family: 'Quintessential', cursive;
+    background-color: #243329;
+}
+
+.logo {
+    display: none;
+}
+
+#reserve_button {
+    position: fixed;
+    top: 110px;
+    width: 1028px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    width: 60%;  
+    font-size: 1.3rem;
+    font-family: 'Amiri', serif;
+    color: #243329;
+    background-color: #F7B04B;
+    z-index: 1;
+}
+
+
+// Begin nav styling
+nav {
+    position: fixed;
+    top: 165px;
+    width: 1028px;
+    max-width: 96.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid #87A385;
+    border-bottom: 2px solid #87A385;
+    background-color: #DDDFD2;
+    opacity: 0.9;
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+}
+
+nav li a {
+    display: block;
+    text-decoration: none;
+    padding: 2%;
+    color: #243329;
+}
+
+.ham {
+    font-size: 3em;
+    color: #243329;
+}
+
+// Begin CSS for hamburger menu
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.responsive li {
+    display: block;
+    text-align: center;
+    font-size: 1.1rem;
+    background-color: #F7B04B;
+}
+// End CSS for hamburger menu
+
+
+// Begin main styling
+main {
+    margin-top: 260px;
+}
+
+
+.main_adventures {
+    margin-bottom: 1%;
+}
+
+
+#whitewater {
+    height: 355px;
+}
+
+#kayaking {
+    height: 400px;
+}
+
+#camping {
+    height: 355px;
+}
+
+.main_images {
+    position: relative;
+    max-width: 99%;
+    z-index: -1;
+    margin-bottom: 1%;
+}
+
+.main_headings {
+    position: relative;
+    bottom: 130px;
+    max-width: 99%;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #243329;
+    opacity: 0.9;
+    z-index: -1;
+}
+
+#current_conditions {
+    border-top: 2px solid #87A385;
+    border-bottom: 2px solid #87A385;
+    margin-bottom: 5%;
+}
+
+#current_conditions_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1028px;
+    max-width: 100%;
+    margin-left: 6%;
+}
+
+.condition_info {
+    padding-right: 10%;
+}
+
+footer {
+    border: $layoutBorders;
+    margin-bottom: 10px;
+    width: 1028px;
+    max-width: 100%;
+    height: 90px;
+    color: #FFFFFF;
+    background-color: #243329;
+}
+
+footer p {
+    margin: 0;
+}
+
+h3 {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+#phone_email {
+    position: relative;
+    width: 160px;
+    left: 66%;
+    bottom: 70px;
+}
+
+#address {
+    position: relative;
+    width: 170px;
+    left: 2%;
+    bottom: 10px;
+}
+
+//River Adventures Page Styling
+.adventures_headings {
+    position: relative;
+    max-width: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #243329;
+    opacity: 0.9;
+    z-index: -1;
+}
+
+#ra_wwr {
+    max-width: 100%;
+}
+
+.ra_sections h3{
+    text-align: left;
+}
+
+p {
+    margin-top: 0;
+    padding: 1%;
+}
+
+
+
+//Contact Page Styling
+iframe {
+    max-width: 100%;
+    margin-bottom: 2%;
+}
+
+#c_pborder {
+    border-top: 2px solid #87A385;
+    padding-top: 2%; 
+}
+
+fieldset {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 2%;
+    box-shadow: 2px 2px 4px 2px #243329;
+}
+
+.info, input {
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
+legend {
+    font-size: 1.05em;
+}
+
+input {
+    padding: 3%;
+    font-size: 1.1rem;
+}
+
+textarea {
+    font-size: 1.1rem;
+}
+
+form input.submitBtn {
+    border: 2px solid #FFFFFF;
+    background-color: #F7B04B;
+    color: #243329;
+    box-shadow: 2px 2px 4px 2px #243329;
+    padding: 0.5rem 1rem;
+    margin:  auto;
+    margin-bottom: 2%;
+    width: 40%;
+    font-size: 1.3rem;
+    font-family: 'Amiri', serif;
+}
+
+//Reservation Page Styling
+table {
+    border: 1px solid #243329;
+    background-color: #87A385;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #243329;
+    background-color: #DDDFD2;
+    padding: 0 10px 0 10px;
+
+}

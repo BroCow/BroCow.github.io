@@ -1,0 +1,101 @@
+
+body {
+    margin: auto;
+}
+
+header {
+    font-size: 1.3em;
+}
+
+#reserve_button {
+    top: 145px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    top: 210px;
+}
+
+main {
+    margin-top: 320px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.section_container1 {
+    display: flex;
+}
+
+.main_adventures {
+    border: 1px red solid;
+    width: 345px;
+}
+
+.main_headings {
+    bottom: 10px;
+}
+
+#whitewater {
+    max-width: 95%;
+}
+
+#whitewater_img {
+    max-width: 100%;
+}
+
+#kayaking {
+    right: 5px;
+    max-width: 95%;
+}
+
+#kayaking_img {
+    max-width: 100%;
+}
+
+#camping {
+    max-width: 95%;
+}
+
+#camping_img {
+    max-width: 100%;
+}
+
+#current_conditions {
+    margin-top: 20%;
+}
+
+#address {
+    left: 44%;
+    bottom: 135px;
+}
+
+#phone_email {
+    left: 75%;
+    bottom: 209px;
+}
+
+//River Adventures Styling
+header {
+    max-width: 100%;
+}
+
+nav {
+    max-width: 100%;
+}
+
+
+#ra_wwr {
+    float: left;
+    margin-right: 2%;
+}
+
+.ra_sections {
+    margin-bottom: 2%;
+}
+
+p {
+    font-size: 1.1em;
+    padding-bottom: 2%;
+}

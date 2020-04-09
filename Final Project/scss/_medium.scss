@@ -1,0 +1,99 @@
+
+
+.logo {
+    display: block;
+    margin-right: 3%;
+}
+
+nav ul {
+    width: 1028px;
+    max-width: 100%;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+// Layout links horizontally
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+// Space links out across nav
+.navigation li {
+    display: block;
+    flex: 1 1 100%;
+}
+
+// Hide hamburger menu icon & text
+.navigation li:first-child {
+    display: none;
+}
+
+.section_container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#whitewater {
+    margin-bottom: 2%;
+}
+
+#whitewater_img {
+    max-width: 99%;
+}
+
+#kayaking {
+    position: relative;
+    height: 245px;
+    right: 1%;
+}
+
+#camping {
+    height: 245px;
+    max-width: 98%;
+}
+
+#current_conditions {
+    margin-top: 5%;
+}
+
+#phone_email {
+    left: 70%;
+    bottom: 193px;
+}
+
+#address {
+    left: 40%;
+    bottom: 130px;
+}
+
+//River Adventures Page Styling
+
+#ra_wwr {
+    float: left;
+    margin-right: 2%;
+}
+
+#ra_kayak {
+    float: right;
+    margin-left: 2%;
+}
+
+#ra_camping {
+    float: left;
+    margin-right: 2%;
+}
+
+footer img {
+    position: relative;
+    bottom: 60px;
+    margin-left: 3%;
+}
+
+//Contact Page Styling
+legend {
+    font-size: 1.1em;
+}
