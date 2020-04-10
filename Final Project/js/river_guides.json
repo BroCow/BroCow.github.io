@@ -10,6 +10,24 @@
             "email": "mikes@gmail.com",
             "bio": "Family, friends, and fun is what I love. All three of these are the best when they're on the river with me!",
             "image": "images/mike_guide.jpg"
+        },
+        {
+            "firstname": "Thomas",
+            "lastname": "Frenzel",
+            "certlevel": "Expert",
+            "experience": "12 years",
+            "email": "thomasf@gmail.com",
+            "bio": "Excitement and adrenaline is what I crave. The river always delivers! I insist on utilizing all safety gear and procedures to ensure another day of adventuring!",
+            "image": "images/thomas_guide.jpg"
+        },
+        {
+            "firstname": "Terry",
+            "lastname": "Monroe",
+            "certlevel": "Expert",
+            "experience": "16 years",
+            "email": "terrym@gmail.com",
+            "bio": "The river brings me a lot of peace and relaxation. Even when the water is white and loud, it's music to my ears!",
+            "image": "images/terry_guide.jpg"
         }
     ]
 }
