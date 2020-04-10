@@ -115,6 +115,39 @@
                         </tr>
                     </table>
                 </section>
+
+                <h2 id="h2_reservation">Reservation Form</h2>
+
+                <form action="thanks.html">
+                    <fieldset>
+                        <legend><strong>Customer Information</strong></legend>
+                        <label class="info">Full Name:<input type="text" name="fullname" pattern="[A-Za-z ]{5,}" required></label>
+                        <label class="info">Email:<input type="email" name="email" placeholder="example@email.com"></label>
+                        <label class="info">Phone Number:<input type="tel" name="phone" required></label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend><strong>Adventure Information</strong></legend>
+                        
+                        <label class="info">Adventure Date:<input type="date" name="date"></label>
+                        
+                        <label class="info" for="adventure">Adventure Selection:
+                            <select class="info" name="adventure" form="reservation">
+                                <option>Select Region...</option>
+                                <option value="Whitewater Rafting">Whitewater Rafting</option>
+                                <option value="Kayaking">Kayaking</option>
+                                <option value="Camping and Hiking">Camping and Hiking</option>
+                            </select>
+                        </label>
+                    </fieldset>
+                    
+                    <fieldset>
+                        <legend><strong>Additional Information or Comments</strong></legend>
+                        <label><textarea class="info" name="comment">Enter information or comments here...</textarea></label>
+                    </fieldset>
+                        
+                    <input type="submit" value="Request Contact" class="submitBtn">
+                </form>
         </main>
      
 

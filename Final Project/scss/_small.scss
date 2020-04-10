@@ -238,6 +238,10 @@ fieldset {
     width: 80%;
 }
 
+form div {
+    display: block;
+}
+
 legend {
     font-size: 1.05em;
 }
@@ -269,11 +273,24 @@ table {
     border: 1px solid #243329;
     background-color: #87A385;
     width: 100%;
+    box-shadow: 2px 2px 4px 2px #243329;
 }
 
 th, td {
     border: 1px solid #243329;
     background-color: #DDDFD2;
     padding: 0 10px 0 10px;
+}
 
+select {
+    font-size: 1.1rem;
+}
+
+#h2_reservation {
+    border-top: 2px solid #87A385;
+}
+
+//Thank You Page Styling
+.thanks {
+    text-align: center;
 }

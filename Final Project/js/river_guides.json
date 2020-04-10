@@ -1,0 +1,15 @@
+
+
+{
+    "guides": [
+        {
+            "firstname": "Mike",
+            "lastname": "Sheriff",
+            "certlevel": "Expert",
+            "experience": "14 years",
+            "email": "mikes@gmail.com",
+            "bio": "Family, friends, and fun is what I love. All three of these are the best when they're on the river with me!",
+            "image": "images/mike_guide.jpg"
+        }
+    ]
+}
