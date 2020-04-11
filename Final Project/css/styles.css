@@ -79,28 +79,23 @@ nav li a {
 main {
   margin-top: 260px; }
 
-.main_adventures {
-  margin-bottom: 1%; }
-
-#whitewater {
-  height: 355px; }
-
-#kayaking {
-  height: 400px; }
-
-#camping {
-  height: 355px; }
-
-.main_images {
+.adv_images {
   position: relative;
-  max-width: 99%;
-  z-index: -1;
-  margin-bottom: 1%; }
+  max-width: 100%;
+  z-index: -1; }
+
+#joinus {
+  font-family: 'Quintessential', cursive;
+  font-size: 3em;
+  margin-bottom: 4%; }
+
+#joinus_large {
+  display: none; }
 
 .main_headings {
   position: relative;
   bottom: 130px;
-  max-width: 99%;
+  max-width: 100%;
   text-align: center;
   color: #FFFFFF;
   background-color: #243329;
@@ -235,10 +230,37 @@ select {
 .thanks {
   text-align: center; }
 
-@media only screen and (min-width: 560px) {
+.cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 0 auto;
+  margin-bottom: 2%;
+  padding: 3%;
+  text-align: center;
+  background-color: #243329;
+  box-shadow: 0px 0px 30px 0px #243329;
+  max-width: 100%; }
+
+.rg_section {
+  color: #243329;
+  font-size: 1.05em;
+  background-color: #DDDFD2;
+  box-shadow: 0px 0px 10px 0px #FFFFFF;
+  margin-right: 1%;
+  margin-bottom: 2%;
+  max-width: 100%; }
+
+.rg_image {
+  max-width: 100%; }
+
+@media only screen and (min-width: 768px) {
   .logo {
     display: block;
     margin-right: 3%; }
+  #reserve_button {
+    top: 150px; }
+  nav {
+    top: 210px; }
   nav ul {
     width: 1028px;
     max-width: 100%;
@@ -253,22 +275,18 @@ select {
     flex: 1 1 100%; }
   .navigation li:first-child {
     display: none; }
-  .section_container2 {
+  .section_container1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 0 auto;
     text-align: center; }
-  #whitewater {
-    margin-bottom: 2%; }
-  #whitewater_img {
-    max-width: 99%; }
-  #kayaking {
-    position: relative;
-    height: 245px;
-    right: 1%; }
-  #camping {
-    height: 245px;
-    max-width: 98%; }
+  .adv_images {
+    max-width: 96%; }
+  #joinus {
+    margin-top: 10%; }
+  .main_headings {
+    max-width: 96%;
+    left: 8px; }
   #current_conditions {
     margin-top: 5%; }
   #phone_email {
@@ -294,13 +312,13 @@ select {
     font-size: 1.1em; } }
 
 /* end of media query */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 960px) {
   body {
     margin: auto; }
   header {
     font-size: 1.3em; }
   #reserve_button {
-    top: 145px;
+    top: 150px;
     display: flex;
     align-items: center;
     justify-content: center; }
@@ -311,25 +329,20 @@ select {
     margin-left: 10px;
     margin-right: 10px; }
   .section_container1 {
-    display: flex; }
-  .main_adventures {
-    border: 1px red solid;
-    width: 345px; }
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+    text-align: center; }
   .main_headings {
     bottom: 10px; }
-  #whitewater {
-    max-width: 95%; }
-  #whitewater_img {
-    max-width: 100%; }
-  #kayaking {
-    right: 5px;
-    max-width: 95%; }
-  #kayaking_img {
-    max-width: 100%; }
-  #camping {
-    max-width: 95%; }
-  #camping_img {
-    max-width: 100%; }
+  #joinus {
+    display: none; }
+  #joinus_large {
+    display: block;
+    position: relative;
+    top: 50px;
+    font-family: 'Quintessential', cursive;
+    font-size: 5em; }
   #current_conditions {
     margin-top: 20%; }
   #address {

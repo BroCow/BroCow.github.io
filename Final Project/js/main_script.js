@@ -33,6 +33,7 @@ fetch(requestURL)
       //Now build the HTML of card using the createElement(), textContent(), and appendChild() methods
       //Make each 'card' a <section> element with standard <h2> and <p> for field items and an <img>
       let card = document.createElement('section');
+      card.setAttribute('class', 'rg_section');
       
       let h2 = document.createElement('h2');
       h2.textContent = guides[i].firstname + ' ' + guides[i].lastname;
@@ -51,11 +52,13 @@ fetch(requestURL)
       card.appendChild(email);
 
       let bio = document.createElement('p');
-      bio.textContent = 'Biography:' + ' ' + guides[i].bio;
+      bio.textContent = guides[i].bio;
       card.appendChild(bio);
 
       let image = document.createElement('img');
       image.setAttribute('src', guides[i].image);
+      image.setAttribute('alt', 'Picture of river');
+      image.setAttribute('class', 'rg_image');
       card.appendChild(image);
 
       document.querySelector('div.cards').appendChild(card);

@@ -18,8 +18,10 @@
             <h1>Salmon River Adventures</h1>
         </header>
 
-        <div id="reserve_button">
-            <button>Reserve My Adventure</button>
+        <div>
+            <form id="reserve_button" action="reservations.html">
+                <button>Reserve My Adventure</button>
+            </form>
         </div>
 
         <nav>
@@ -32,41 +34,31 @@
                 <li><a class="navlink" id="contact_us" href="contact.html">Contact Us</a></li>
             </ul> 
         </nav>
-       
+    
         <main>
             <div class="section_container1">
-                
-                <div class="main_adventures" id="whitewater">
-                    <picture>
-                        <source media="(min-width: 768px)" srcset="images/whitewater_large.jpg">
-                        <source media="(min-width: 540px)" srcset="images/whitewater_medium.jpg">
-                        <img class="main_images" id="whitewater_img" src="images/whitewater_small.jpg" alt="Whitewater Rafting">
-                    </picture>
-                    <h2 class="main_headings">Whitewater Rafting</h2>
-                </div>
 
-                <div class="section_container2">
+                    <div class="main_adventures">
+                        <img class="adv_images" src="images/whitewater.jpg" alt="Whitewater Rafting">
+                        <h2 class="main_headings">Whitewater Rafting</h2>
+                    </div>
                     
                     <div class="main_adventures" id="kayaking">
-                        <picture>
-                            <source media="(min-width: 768px)" srcset="images/kayaking_large.jpg">
-                            <source media="(min-width: 540px)" srcset="images/kayaking_medium.jpg">
-                            <img class="main_images" id="kayaking_img" src="images/kayaking_small.jpg" alt="Kayaking">
-                        </picture>
+                        <img class="adv_images" src="images/kayaking1.jpg" alt="Kayaking">
                         <h2 class="main_headings">Kayaking</h2>
                     </div>
                 
                     <div class="main_adventures" id="camping">
-                        <picture>
-                            <source media="(min-width: 768px)" srcset="images/camping_large.jpg">
-                            <source media="(min-width: 540px)" srcset="images/camping_medium.jpg">
-                            <img class="main_images" id="camping_img" src="images/camping_small.jpg" alt="River Camping">
-                        </picture>
+                        <img class="adv_images" src="images/camping.jpg" alt="River Camping">
                         <h2 class="main_headings">Camping & Hiking</h2>
+                    </div>    
+
+                    <div>
+                        <h3 id="joinus"><strong>Join us on an <br>Adventure!</strong></h3>
                     </div>
-                </div>
-                    
             </div>
+
+            <h3 id="joinus_large"><strong>Join us on an <br>Adventure!</strong></h3>
 
             <div id="current_conditions">
                 <h3>Current Conditions, Riggins Idaho</h3>

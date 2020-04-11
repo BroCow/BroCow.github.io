@@ -99,35 +99,26 @@ main {
     margin-top: 260px;
 }
 
-
-.main_adventures {
-    margin-bottom: 1%;
-}
-
-
-#whitewater {
-    height: 355px;
-}
-
-#kayaking {
-    height: 400px;
-}
-
-#camping {
-    height: 355px;
-}
-
-.main_images {
+.adv_images {
     position: relative;
-    max-width: 99%;
+    max-width: 100%;
     z-index: -1;
-    margin-bottom: 1%;
+}
+
+#joinus {
+    font-family: 'Quintessential', cursive;
+    font-size: 3em;
+    margin-bottom: 4%;
+}
+
+#joinus_large {
+    display: none;
 }
 
 .main_headings {
     position: relative;
     bottom: 130px;
-    max-width: 99%;
+    max-width: 100%;
     text-align: center;
     color: #FFFFFF;
     background-color: #243329;
@@ -212,8 +203,6 @@ p {
     padding: 1%;
 }
 
-
-
 //Contact Page Styling
 iframe {
     max-width: 100%;
@@ -293,4 +282,31 @@ select {
 //Thank You Page Styling
 .thanks {
     text-align: center;
+}
+
+//River Guides Page Styling
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    padding: 3%;
+    text-align: center;
+    background-color: #243329;
+    box-shadow: 0px 0px 30px 0px #243329;
+    max-width: 100%;
+}
+
+.rg_section {
+    color: #243329;
+    font-size: 1.05em;
+    background-color: #DDDFD2;
+    box-shadow: 0px 0px 10px 0px #FFFFFF;
+    margin-right: 1%;
+    margin-bottom: 2%;
+    max-width: 100%;
+}
+
+.rg_image {
+    max-width: 100%;
 }

@@ -5,6 +5,14 @@
     margin-right: 3%;
 }
 
+#reserve_button {
+    top: 150px;
+}
+
+nav {
+    top: 210px;
+}
+
 nav ul {
     width: 1028px;
     max-width: 100%;
@@ -30,30 +38,24 @@ nav ul {
     display: none;
 }
 
-.section_container2 {
+.section_container1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 0 auto;
     text-align: center;
 }
 
-#whitewater {
-    margin-bottom: 2%;
+.adv_images {
+    max-width: 96%;
 }
 
-#whitewater_img {
-    max-width: 99%;
+#joinus {
+    margin-top: 10%;
 }
 
-#kayaking {
-    position: relative;
-    height: 245px;
-    right: 1%;
-}
-
-#camping {
-    height: 245px;
-    max-width: 98%;
+.main_headings {
+    max-width: 96%;
+    left: 8px;
 }
 
 #current_conditions {

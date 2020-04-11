@@ -8,7 +8,7 @@ header {
 }
 
 #reserve_button {
-    top: 145px;
+    top: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,41 +25,26 @@ main {
 }
 
 .section_container1 {
-    display: flex;
-}
-
-.main_adventures {
-    border: 1px red solid;
-    width: 345px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .main_headings {
     bottom: 10px;
 }
 
-#whitewater {
-    max-width: 95%;
+#joinus {
+    display: none;
 }
 
-#whitewater_img {
-    max-width: 100%;
-}
-
-#kayaking {
-    right: 5px;
-    max-width: 95%;
-}
-
-#kayaking_img {
-    max-width: 100%;
-}
-
-#camping {
-    max-width: 95%;
-}
-
-#camping_img {
-    max-width: 100%;
+#joinus_large {
+    display: block;
+    position: relative;
+    top: 50px;
+    font-family: 'Quintessential', cursive;
+    font-size: 5em;
 }
 
 #current_conditions {
